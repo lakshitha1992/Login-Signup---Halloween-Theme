@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Signup - Halloween Theme</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Add Google Fonts link for Butcherman -->
+    <link href="https://fonts.googleapis.com/css2?family=Butcherman&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="halloween-wrapper">
+        <!-- Bats flying animation -->
+        <div class="bats">
+            <div class="bat"></div>
+            <div class="bat"></div>
+            <div class="bat"></div>
+            <div class="bat"></div>
+            <div class="bat"></div>
+        </div>
+
+        <!-- Login and Signup Forms -->
+        <div class="form-container">
+            <form class="form" id="login-form">
+                <h1>Login</h1>
+                <input class="input" id="email" name="email" type="text" placeholder="Enter your Email here" required>
+                <input class="input" id="password" name="password" type="password"
+                    placeholder="Enter your Password here" required>
+                <button class="button" id="login" name="login">Login</button>
+                <p class="toggle-text" id="show-signup">Don't have an account? <a href="#">Signup</a></p>
+            </form>
+
+            <form class="form hidden" id="signup-form">
+                <h1>Signup</h1>
+                <input class="input" id="name" name="name" type="text" placeholder="Enter your Name here" required>
+                <input class="input" id="date" name="date" type="date" placeholder="MM/DD/YYYY" required>
+                <input class="input" id="email" name="email" type="text" placeholder="Enter your Email here" required>
+                <input class="input" id="password" name="password" type="password"
+                    placeholder="Enter your Password here" required>
+                <button class="button" id="signup" name="signup">Signup</button>
+                <p class="toggle-text" id="show-login">Already have an account? <a href="#">Login</a></p>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
